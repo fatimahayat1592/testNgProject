@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regressionSmoke">
+    <test verbose="2" preserve-order="true"
+          name="smoke test">
+        <classes>
+            <class name="class01.enableDisable"></class>
+        </classes>
+
+    </test>
+
+<test name="regression">
+<classes>
+    <class name="class01.Priority"></class>
+</classes>
+</test>
+</suite>
